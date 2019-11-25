@@ -65,9 +65,9 @@ filename = ...
 print(run(count_chars_of_file(filename)).value)
 ```
 
-## Implement `fake_run`
+## Implement `run_fake`
 
-Implement `fake_run` so that all files seem to contain their file names. Test it with
+Implement `run_fake` so that all files seem to contain their file names. Test it with
 
 ```python
 run_fake(count_chars_of_file(filename)).value == len(filename)
