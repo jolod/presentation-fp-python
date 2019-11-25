@@ -2,9 +2,10 @@
 
 These exercises will hopefully make you comfortable using lambdas and thinking in terms of functions.
 
-The last exercise, error handling, shows how you can express control flow using functions.
+The exercise on error handling illustrates how you can express control flow using functions.
 
 ## Case expressions
+
 The simplest variant data type are booleans. We can encode them in Python as
 
 ```python
@@ -28,7 +29,7 @@ abs = lambda x: IF(
 )
 ```
 
-Define `IF` and use it to create a `case` function:
+Define `IF` however you like (you need to use `if` directly or indirectly since the first argument is a boolean). Then use it to create a `case` function:
 
 ```python
 def sign(x):
@@ -46,6 +47,8 @@ print(sign(-10)) # -
 print(sign(10))  # +
 print(sign(0))   # 0
 ```
+
+Make `case` general so that it can take a variable (odd) number of arguments.
 
 ## `None` handling
 
@@ -74,7 +77,7 @@ print(
 
 ## Error handling
 
-Like `None` handling, write a `let` which short-cirsuits on errors:
+Like `None` handling, write a `let` which short-circuits on errors:
 
 ```python
 def TODO():
