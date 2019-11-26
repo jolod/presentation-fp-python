@@ -2,7 +2,9 @@
 
 By Johan Lodin, presented 2019-11-21 at [GothPy](https://www.meetup.com/GothPy/).
 
-## Building the presentation
+The slides are written in Markdown and are directly readable without any processing: [slides.md](slides.md).
+
+## Building the slideshow
 
 To produce `slideshow.html`, run
 
