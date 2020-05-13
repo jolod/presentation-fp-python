@@ -617,7 +617,7 @@ Cannot rely on only passing in behavior.
 * Variants model branching, in contrast to aggregations.
 * Python (and most OO languages) do not support branching on variants syntactically (except booleans).
 * Variants ~~ visitor pattern.
-  * Visitor implementations is rare in OOP, but variants are *everywhere* in FP.
+  * Visitor implementations are rare in OOP, but variants are *everywhere* in FP.
 
 Remember: booleans are variants.
 
@@ -642,7 +642,7 @@ data Maybe a = Just a | Nothing
 
 case result of
   Just x -> ... -- Make good use of x.
-  Nothing -> ... -- Do thing else.
+  Nothing -> ... -- Do something else.
 ```
 
 * `Just` is like `True` but carries a value.
